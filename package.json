@@ -1,0 +1,17 @@
+{
+  "name": "local_provider",
+  "version": "0.0.1",
+  "description": "A library that allows you to deliver dependencies via the call stack",
+  "main": "./lib/index.js",
+  "module": "./lib/index.m.js",
+  "types": "./lib/index.d.js",
+  "repository": "https://github.com/sluppyy/local_provider",
+  "author": "Gl3b4ty",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
