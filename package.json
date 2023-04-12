@@ -9,8 +9,12 @@
   "author": "Gl3b4ty",
   "license": "MIT",
   "scripts": {
+    "prepare": "tsc",
     "build": "tsc"
   },
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "typescript": "^5.0.4"
   }
