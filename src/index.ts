@@ -16,4 +16,8 @@ export class Provider<T> {
   get(): T {
     return this._stack[this._stack.length - 1] ?? this.byDefault
   }
+
+  getAll() {
+    return [...this._stack]
+  }
 }
